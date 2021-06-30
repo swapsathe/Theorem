@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing and Automation Task" parallel="false" allow-return-values="true">
+    <test name="UI Test">
+        <classes>
+            <class name="com.theorem.ui.BrowseProductTest"/>
+            <class name="com.theorem.ui.CheckoutCartTest"/>
+            <class name="com.theorem.ui.CreateAccountTest"/>
+            <class name="com.theorem.ui.LogInTest"/>
+            <class name="com.theorem.ui.SearchProductTest"/>
+            <class name="com.theorem.ui.ShareToSocialMediaTest"/>
+            <class name="com.theorem.ui.ShoppingCartTest"/>
+        </classes>
+    </test>
+</suite>
