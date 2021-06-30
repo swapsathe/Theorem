@@ -3,7 +3,7 @@ Greetings !
 
 This project is built using Maven, TestNG and Selenium. I have also integrated Extent reports with the tests to visualize test runs.
 
-My strategy while developing this testing framework was to go breadth first instead of depth. From the client (slack channel) discussions, the request was to create framework so that a junior QA or someone new to automation can take over this work. By covering as much as features possible, I have given them a starting point for writing more tests.
+My strategy while developing this testing framework was to go breadth first instead of depth. From the client (slack channel) discussions, the request was to create framework so that a junior QA or someone new to automation can take over this work. By covering as many features as possible, I have given them a starting point for writing more tests.
 
 I tried to show various ways of using framework, like parameterizing tests, using custom test listener to do reporting, etc. This approach will be useful for new QA to get started with using various features. 
 
@@ -28,9 +28,9 @@ I tried to show various ways of using framework, like parameterizing tests, usin
     `mvn clean test -DsuiteXmlFile=testng.xml`
     
 ## Reports
-Reports are generated using extent reports, a sample report is included in the repository. [Here is the link to it](reports/Test-Automaton-Report.html)
+Reports are generated using extent reports, a sample report is included in the repository. It is located in reports directory at the base of this project.
 
-Whenever new tests are run, they replace the existing report in reports directory at the base of the project.
+Whenever new tests are run, they replace the existing report in this directory.
     
 ## Nice to have if more time given
 I would like to -
